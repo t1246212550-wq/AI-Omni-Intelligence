@@ -1,0 +1,6 @@
+{
+  "name": "AI-Omni Intelligence Workflow Template",
+  "nodes": [],
+  "connections": {},
+  "notice": "请在 n8n 界面点击 'Import from File' 导入你导出的完整 JSON 数据。"
+}
