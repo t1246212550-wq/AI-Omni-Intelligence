@@ -10,22 +10,22 @@
 - **异步分发网关 (Async Gateway)**: 集成 **OpenClaw**，有效解决企业微信、飞书等平台 5 秒响应限制，确保长文本推送 100% 到达。
 - **Agentic 开发流**: 核心 Prompts 与架构方案由 **Claude Code** 辅助审计与优化。
 
-## 🌟 核心亮点
+##  核心亮点
 1. **模型级联降本增效**: 采用 DeepSeek 初筛 + GPT-4o 精写的双模型方案。
 2. **5s 超时攻克**: 通过 OpenClaw 异步处理机制，完美适配 Reasoning 模型（如 DeepSeek-R1）的推理长文本。
 3. **爆款文案自动生成**: 内置针对小红书、自媒体引流优化的提示词库，实现从情报到流量的极速转化。
 
-## 📊 Token 消耗场景 (Token Consumption)
+## Token 消耗场景 (Token Consumption)
 - **Agentic Coding**: 使用 Claude Code 进行代码逻辑审计和多文件重构，产生高额 Context 消耗。
 - **高频情报流监测**: 24h 不间断处理全球 50+ 技术源，产生大量的文本理解需求。
 - **内容矩阵规模化**: 针对多端分发进行长文本创作，对高性能模型 API 存在持续性、高额度依赖。
 
-## 📦 目录说明
+## 目录说明
 - `/backend`: 基于 FastAPI 的数据接收与管理中心。
 - `/frontend`: 基于 Vue3 + Tailwind CSS 的情报看板预览。
 - `/workflows`: n8n 自动化流程 JSON 定义文件。
 - `/prompts`: 核心提示词库（Markdown 格式）。
 
-## 🤝 开发者
+## 开发者
 - **Identity**: 一人公司 (One-man Company) / 独立开发者
 - **Vision**: 构建基于 AI 的全自动化数字资产实验室
